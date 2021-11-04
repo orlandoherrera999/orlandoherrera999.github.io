@@ -1,0 +1,103 @@
+div {
+    background: red;
+    height: 100px;
+    width: 300px;
+    display: inline-block;
+}
+
+span {
+    background: rgb(29, 41, 12);
+    height: 50px;
+    width: 300px;
+    display: block;
+
+}
+
+
+.button {
+    background-color:black;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+} 
+
+p {
+    text-align: center;
+    color:rebeccapurple;
+    font:100px;
+    background-color:black;
+    height: 200px;
+    width:1000px;
+    padding: 20px 150px;
+    margin:auto;
+    border:rebeccapurple;
+    cursor: pointer;
+
+}
+
+.center{
+    text-align: center;
+    color: rebeccapurple;
+    background-color:bisque;
+    height: 100px;
+    width: 1300px;
+    font-size: 50px
+  
+
+}
+
+h1{
+    Text-align: center;
+    font-size: 80px;
+}
+
+#image {
+    margin-top: 20px;
+ margin-bottom: 50px;
+ margin-right: 200px;
+ margin-left: 0px;
+}
+#image {
+    margin-top: 25px;
+    margin-bottom: 55px;
+    margin-right: 225px;
+    margin-left: 10px;
+}
+
+.conainter h2{
+    color: rebeccapurple(235, 150, 150);
+    Font-size: 20px;
+    text-align: center; 
+    background-color: black; 
+}
+
+.container h1{
+    color: rebeccapurple;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container h3{
+    color: rebeccapurple;
+    background-color: black; 
+}
+
+div {
+    width: 1300px;
+    height: 200px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  
+  
+
+
